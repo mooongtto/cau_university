@@ -2345,7 +2345,7 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
             width: 187px;
         }
         .footer .container .main-footer .search .search-box .search-txt p{
-            font-size: 12px;
+            font-size: 13px;
             padding-left: 10px;
         }
         .footer .container .main-footer .search{
@@ -2357,6 +2357,9 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
         }
         .footer .container .main-footer .search .search-box .search-go p{
             font-size: 12px;
+        }
+        .footer .container .main-footer .txt p{
+            font-size: 13px;
         }
     }
 }
