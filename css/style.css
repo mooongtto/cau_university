@@ -2263,7 +2263,7 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
         }
         
     }
-    @media (max-width:376px){
+    @media (max-width:375px){
         .banner-container .main-left .service-inner .tabs .target .inner-wrap .title .content li a{
             width: 90px;
             height: 100%;
