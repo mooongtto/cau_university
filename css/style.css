@@ -528,6 +528,7 @@
 }
 .banner-container .main-left .service-inner .btn .btn-box a{
     display: flex;
+    align-items: center;
 }
 .banner-container .main-left .service-inner .btn .btn-box p{
     color: #fff;
@@ -2046,7 +2047,8 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
         }
         .banner-container .main-left .tag li{
             width: auto;
-            padding: 0 10px;
+            padding: 12px 6px;
+            height: auto;
         }
         .banner-container .main-left .tag li a{
             font-size: 16px;
@@ -2055,10 +2057,10 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
             height: 70px;
         }
         .banner-container .main-left .service-inner .btn .btn-box.service{
-            font-size: 18px;
+            font-size: 16px;
         }
         .banner-container .main-left .service-inner .btn .btn-box p{
-            font-size: 18px;
+            font-size: 16px;
         }
         .banner-container .main-left .service-inner .tabs .target.on{
             transform: translateY(-570px);
@@ -2121,6 +2123,15 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
         }
         .banner-container .main-right{
             height: auto;
+        }
+        .mobile-major-wrap .major-container .box{
+            width: 90%;
+        }
+        .mobile-major-wrap .major-container .box h5{
+            font-size: 16px;
+        }
+        .mobile-major-wrap .major-container .box ul li{
+            font-size: 12px;
         }
         .sec-1 .container{
             height: auto;
@@ -2251,5 +2262,101 @@ input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-tog
             padding-left: 14px;
         }
         
+    }
+    @media (max-width:376px){
+        .banner-container .main-left .service-inner .tabs .target .inner-wrap .title .content li a{
+            width: 90px;
+            height: 100%;
+            padding: 10px;
+        }
+        .banner-container .main-left .service-inner .tabs .target .inner-wrap .title .content li a .text{
+            font-size: 12px;
+            text-align: center;
+        }
+        .banner-container .main-left .service-inner .tabs .target .inner-wrap .title .content li a .icon img{
+            width: 30px;
+            height: 30px;
+        }
+        .banner-container .main-left .service-inner .tabs .target .inner-wrap .txt{
+            padding: 28px 0 18px 0;
+        }
+        .sec-1 .container .title-box{
+            margin-bottom: 30px;
+            font-size: 36px;
+        }
+        .sec-1 .container .today .txt-title{
+            font-size: 20px;
+        }
+        .sec-1 .container .today .txt-title{
+            font-size: 20px;
+        }
+        .sec-1 .container .img-1 .img-main img{
+            height: 220px;
+        }
+        .sec-1 .container .img-1 .txt h1{
+            font-size: 18px;
+        }
+        .sec-1 .container .img-1 .txt h2{
+            font-size: 15px;
+        }
+        .sec-1 .container .img-2 .img-main img{
+            height: 220px;
+        }
+        .sec-1 .container .img-2 .txt h1{
+            font-size: 18px;
+        }
+        .sec-1 .container .img-2 .txt h2{
+            font-size: 15px;
+        }
+        .sec-2 .container .list-category .title-txt{
+            font-size: 36px;
+        }
+        .sec-2 .container .list-category label .btn-toggle-sub{
+            width: 60px;
+            height: 60px;
+        }
+        input[id="btn-toggle"]:checked ~ .list-category label[for="btn-toggle"] .btn-toggle-sub{
+            transform: translateY(200px) rotate(180deg);
+        }
+        .sec-4 .container .main-txt p{
+            font-size: 36px;
+        }
+        .sec-4 .container .main-img .box1 .sub-box.one{
+            height: 180px;
+        }
+        .sec-4 .container .main-img .box1 .sub-box{
+            width: 100%;
+            height: 180px;
+            padding-right: 0;
+        }
+        .sec-4 .container .main-img .box1 .sub-box, .sec-4 .container .main-img .box1 .sub-box.out{
+            height: 180px;
+        }
+        .sec-4 .container .main-img .box2 .sub-box{
+            height: 160px;
+        }
+        .sec-4 .container .main-img .box2 .sub-box.sub-box2{
+            height: 300px;
+        }
+        .sec-5 .container .right-box .today{
+            padding-left: 30px;
+        }
+        .footer .container .menu-container .menu-wrap .menu li{
+            width: 187px;
+        }
+        .footer .container .main-footer .search .search-box .search-txt p{
+            font-size: 12px;
+            padding-left: 10px;
+        }
+        .footer .container .main-footer .search{
+            margin-bottom: 0;
+            margin: 18px 0;
+        }
+        .footer .container .main-footer .search .search-box .search-go{
+            width: 50px;
+        }
+        .footer .container .main-footer .search .search-box .search-go p{
+            font-size: 12px;
+        }
     }
 }
