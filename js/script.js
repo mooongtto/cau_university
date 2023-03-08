@@ -123,10 +123,15 @@ $(document).ready(function(){
     if(ww < 560){
         $('.sec-1 .container .img-2 .txt').insertAfter('.sec-1 .container .img-2 .img-main');
     }else{
-        $('.sec-1 .container .img-2 .txt').insertAfter('.sec-1 .container .img-2 .img-main');
-
+        
     }
 
-
+    //탑 버튼 올리기
+    const topbutton = $('.top-btn-wrap');
+    topbutton.click(function(){
+        $('html,body').animate({
+            scrollTop:0
+        });
+    });
 
 }); //end
